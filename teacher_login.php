@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teacher Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h2>Teacher Login</h2>
+
+<form action="view.php" method="POST">
+
+<input type="text" name="teacher" placeholder="Teacher Name" required>
+
+<select name="subject" required>
+<option value="">Select Subject</option>
+<option>Web Development</option>
+<option>CNS</option>
+<option>Deep Learning</option>
+<option>AML</option>
+<option>ESD</option>
+</select>
+
+<button type="submit">View Feedback</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

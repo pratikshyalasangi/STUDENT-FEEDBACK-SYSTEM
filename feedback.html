@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h2>📝 Give Feedback</h2>
+
+<form action="submit.php" method="POST">
+
+<select name="teacher" required>
+<option value="">Select Teacher</option>
+<option>Teacher 1</option>
+<option>Teacher 2</option>
+<option>Teacher 3</option>
+<option>Teacher 4</option>
+<option>Teacher 5</option>
+</select>
+
+<select name="subject" required>
+<option value="">Select Subject</option>
+<option>Math</option>
+<option>DBMS</option>
+<option>OS</option>
+<option>Java</option>
+<option>Python</option>
+</select>
+
+<select name="rating" required>
+<option value="">Rating</option>
+<option>⭐⭐⭐⭐⭐ Excellent</option>
+<option>⭐⭐⭐⭐ Good</option>
+<option>⭐⭐⭐ Average</option>
+<option>⭐⭐ Poor</option>
+</select>
+
+<textarea name="suggestion" placeholder="Your suggestion..."></textarea>
+
+<button type="submit">Submit 🚀</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
